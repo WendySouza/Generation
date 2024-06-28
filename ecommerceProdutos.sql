@@ -1,4 +1,6 @@
--- CREATE DATABASE db_ecommerce;
+-- Atividade 2
+
+CREATE DATABASE db_ecommerce;
 
 USE db_ecommerce; 
 

@@ -1,3 +1,5 @@
+-- Atividade 3
+
 CREATE DATABASE db_escola;
 
 USE db_escola;
