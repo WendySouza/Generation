@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap');
+
+:root {
+    --primary-color: #2c3e50; 
+    --secondary-color: #90979b; 
+    --font-size: 16px;
+    --padding: 10px;
+    --font-family: 'Roboto', sans-serif;
+    --background-color: #ecf0f1; 
+    --button-color: #7f8c8d; 
+}
+
+body {
+    margin: 20px;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+* {
+    text-decoration: none;
+    color: var(--primary-color);
+} 
+
+.menu {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    margin-bottom: var(--padding);
+}
+
+.titulo {
+    font-family: var(--font-family);
+    font-weight: 900;
+    color: var(--primary-color);
+    margin-bottom: var(--padding);
+}
+
+.subtitulo {
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: var(--padding);
+}
+
+.texto {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-bottom: var(--padding);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: var(--padding);
+}
+
+iframe {
+    margin-bottom: var(--padding);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, textarea {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: var(--padding);
+}
+
+button {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    padding: var(--padding);
+    cursor: pointer;
+    font-family: var(--font-family);
+}
